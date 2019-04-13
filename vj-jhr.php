@@ -13,6 +13,7 @@ defined('WPINC') || (header("location: /") && die());
 function vjjhr_hook() { ?>
 <script>
 if (location.protocol != 'https:'){
+	window.stop();
 	location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 }
 </script>
