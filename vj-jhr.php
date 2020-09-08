@@ -4,8 +4,10 @@ Plugin Name: VJMedia: JSHTTPSRedirect
 Description: Redirec to HTTPS using Javascript instead of Cloudflare for preserv sub-sub-domain usability
 Version: 1.0
 Author: <a href="http://www.vjmedia.com.hk">技術組</a>
-GitHub Plugin URI: https://github.com/VJMedia/vj-jshttpsredirect
 */
+
+
+//GitHub vj-jshttpsredirect
 
 defined('WPINC') || (header("location: /") && die());
 
